@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <style>
+            body {
+                background-color: black;
+            }
+            #containerId {
+                left: 7.5vw;
+                top: 13.5vh;
+                position: fixed;
+                background-color: #ffffff;
+                padding: 1rem;
+                border-radius: 8px;
+                max-width: 80;
+                width: 100%;
+                height: 80vh;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+            .card:hover {
+                transform: scale(1.1);
+                transition: ease-in-out 0.1s;
+                box-shadow: 0 4px 10px rgba(163, 4, 4, 0.953);
+            }
+            .row {
+                margin-bottom: 1rem;
+            }
+            .card {
+                height: 16rem;
+                margin: 0 auto;
+            }
+            #myVideo {
+                width: 100vw;
+                height: 100vh;
+                object-fit: cover;
+                position: fixed;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                z-index: -1;
+            }
+            .card-body {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.6);
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 4rem;
+            }
+            .card-img-top {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div style="width: 100%; background-color: rgba(0, 0, 0, 0.8); ">
+                <h1 class="display-5 fw-bold text-center " style="color: white; padding: 20px;">STATES</h1>
+            </div>
+        </header>
+        <video autoplay muted loop id="myVideo">
+            <source src="videos/India.mp4" type="video/mp4" />
+        </video>
+        <div class="container" id="containerId">
+            <div class="row">
+                <div class="col">
+                    <a href="kerala.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/cherai-beach-kochi-kerala-1-attr-nearby?qlt=82&ts=1727367738936" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">KERALA</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/bangaram-kavaratti-lakshwadeep-1-attr-nearby?qlt=82&ts=1727011535552" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">LAKSHWADEEP</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/charminar-hyderabad-1-attr-nearby?qlt=82&ts=1726653048468" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">TELANGANA</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/1-shore-temple-mamallapuram-2-attr-nearby?qlt=82&ts=1726654619613" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">TAMIL NADU</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/1-sri-harmandir-sahib-(golden-temple)-amritsar-punjab-attr-nearby?qlt=82&ts=1726662259743" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">PUNJAB</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/tulip-garden-patnitop-attr-nearby?qlt=82&ts=1727353616756" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">KASHMIR</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/hawa-mahal-jaipur-rajasthan-1-attr-nearby?qlt=82&ts=1726660181235" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">RAJASTHAN</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/rock-garden-chandigarh-1-attr-nearby?qlt=82&ts=1727353621313" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">CHANDIGARH</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/taj-mahal-agra-uttar-pradesh-1-attr-nearby?qlt=82&ts=1726650395114" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">UP</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/chidiya-tapu-port-blair-andaman-nicobar-island-1-attr-nearby?qlt=82&ts=1726746290743" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">ANDAMAN</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/gateway-of-india-mumbai-maharashtra-1-attr-nearby?qlt=82&ts=1727355349679" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">MAHARASHTRA</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="index.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://s7ap1.scene7.com/is/image/incredibleindia/noh-sngithiang-falls-cherrapunjee-meghalaya-1-attr-nearby?qlt=82&ts=1727354888840" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="display-5 fw-bold text-center fs-3">MEGHALAYA</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer></footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
