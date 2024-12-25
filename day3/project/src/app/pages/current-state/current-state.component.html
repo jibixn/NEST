@@ -1,0 +1,17 @@
+
+
+
+
+<app-carousel-states [data]="data"></app-carousel-states>
+<app-placeholder-box2></app-placeholder-box2>
+<app-jumbatron [data]="data"></app-jumbatron>
+
+<div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}" id = "row">
+    
+    @for(item of selected_images; track item.id){
+      <div class="col ">
+        <!-- <app-state-cards [data] = "selected_images"></app-state-cards> -->
+      </div>
+    }
+   
+  </div>

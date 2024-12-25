@@ -1,0 +1,15 @@
+<app-video2></app-video2>
+<app-placeholder-box></app-placeholder-box>
+<app-heading [data] = "headingTags"></app-heading> 
+<app-container-box>
+<div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}" id = "row">
+    
+    @for(item of states; track item.id){
+      <div class="col ">
+          <app-card [data] = "item"></app-card>
+      </div>
+    }
+   
+  </div>
+ 
+</app-container-box>

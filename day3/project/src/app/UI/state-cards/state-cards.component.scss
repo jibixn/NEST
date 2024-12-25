@@ -1,0 +1,27 @@
+.row {
+    margin-bottom: 1rem;
+}
+.card {
+    height: 100;
+    margin: 0 auto;
+    position: relative;
+    transition: ease 0.1s;
+    border-color: black;
+}
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+.card:hover{
+    bottom: 30px;
+    transform: scale(1.05);
+    transition: ease 0.1s;
+}

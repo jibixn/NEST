@@ -1,0 +1,14 @@
+<div style="display: flex; align-items: center; margin-top: 25vh;">
+    <div class="p-5 mb-4 bg-custom rounded-3" style="background-color: transparent; color: white;">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">EXPLORE</h1>
+            <p class="col-md-8 fs-4">
+                {{selectedState.desc}}
+            </p>
+
+        </div>
+      </div>
+      
+      <iframe  [src]="mapUrl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+    
+</div>

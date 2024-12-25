@@ -1,0 +1,263 @@
+html{
+    /* font-size: 20px; */
+    overflow-x: hidden;
+    /* background-color: #f0effb; */
+}
+.navbar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background: #6f64d3;
+    height: 30vh;
+    border-radius: 0%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+.navbar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+}
+.navbar a:hover{
+    transform: scale(1.1);
+    transition: ease-in 0.2s;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+
+
+.navbar div{
+    display: flex;
+
+    margin-right: 80vh;
+}
+.home{
+
+    display: flex;
+}
+
+.alan{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+/* .home{
+    justify-content: space-around;
+} */
+
+.aboutme{
+    display: flex;
+    margin-top: 500px;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutme img{
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+}
+
+.aboutme img:hover
+ {
+    box-shadow: 0 0 20px #6f64d3;
+    transform: scale(1.1);
+    transition: ease-in 0.1s;
+}
+
+.paradiv p{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 300px;
+    font-size: 1.2rem;
+    color: #333;
+}
+.paradiv h1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 300px;
+    color: #5a52b5;
+    font-size: 3.5rem;
+}
+
+.edu{
+    display: grid;
+    margin-left: 150px;
+    gap: 1.5rem;
+}
+
+.eduh1{
+    font-size: 3.5rem;
+    margin-left: 600px;
+    margin-top: 300px;
+    color: #5a52b5;
+}
+
+.edu_div:hover{
+
+    transition: 0.3s ease;
+    transform: scale(1.1);
+
+}
+
+.edu_div{
+    align-items: center;
+    color: #6f64d3;
+    display: flex;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 80vw;
+    width: 100%;
+   
+}
+
+.edu_div img{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+.edu_div img:hover
+ {
+    box-shadow: 0 0 20px #6f64d3;
+    transform: scale(1.1);
+    transition: ease-in 0.1s;
+}
+.skills {
+    align-items: center;
+    justify-content: center;
+    margin-left: 27.5vw;
+    margin-top: 200px;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+}
+.skills h1{
+    font-size: 4rem;
+    margin-left: 15.5vw;
+    color: #5a52b5;
+}
+
+.skills_table tr td div img{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.skills_table tr td div img:hover{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    color: 30px #6f64d3;
+    outline: none;
+    transition: 0.3s ease;
+    transform: scale(1.5);
+    
+}
+
+.contactUs {
+    /* display: inline-block; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    width: 100%;
+    margin-left: 35vw;
+}
+.contactUs h1{
+    color: #5a52b5;
+    font-size: 4rem;
+}
+
+.contactUs form {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+
+.contactUs table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+}
+
+
+.contactUs table label {
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+}
+
+
+.contactUs table input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.contactUs table input[type="text"]:focus{
+    border-color: #6f64d3;
+    outline: none;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    
+}
+
+
+
+
+
+.contactUs input[type="submit"] {
+    background-color: #6f64d3;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.contactUs input[type="submit"]:hover {
+    background-color: #5a52b5;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
