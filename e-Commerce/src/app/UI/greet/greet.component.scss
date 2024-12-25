@@ -1,0 +1,33 @@
+#ulid li:hover, #ulid a:hover{
+    
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    transition: ease-in-out 0.1s;
+    transform: scale(1.1);
+}
+a{
+    padding: 10px;
+}
+#ulid li,#ulid a{
+    border-radius: 30px;
+    
+    border-width: 1px;
+    color: #f2ebdb;
+}
+#div1,#div2{
+    height: 100vh;
+}
+
+#product2:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.1);
+}
+
+#div1{
+    border-color: black;
+}
+#div1:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.05);
+}

@@ -1,0 +1,23 @@
+nav{
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    // border-bottom: 1px solid rgba(0, 0, 0, 0.273);
+}
+#ulid li:hover, #ulid a:hover{
+    
+    background-color: black;
+    border-radius: 30px;
+    transition: ease-in-out 0.1s;
+    transform: scale(1.1);
+    color: #f2ebdb;
+    cursor: pointer;
+}
+#ulid li,#ulid a{
+    border-radius: 30px;
+    border-color: 1px solid black;
+    border-width: 1px;
+}
+a{
+    padding: 10px;
+}

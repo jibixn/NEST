@@ -1,0 +1,18 @@
+div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+a{
+    border-radius: 30px;
+    transform: scale(1.5);
+}
+a:hover{
+    background-color: #f2ebdb;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+    transition:all  0.1s;
+    transform: scale(1.7);
+}
