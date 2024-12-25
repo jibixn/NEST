@@ -13,7 +13,7 @@ import { StateCardsComponent } from "../../UI/state-cards/state-cards.component"
 
 @Component({
   selector: 'app-current-state',
-  imports: [PlaceholderBox2Component, CarouselStatesComponent, JumbatronComponent, StateCardsComponent],
+  imports: [PlaceholderBox2Component, CarouselStatesComponent, JumbatronComponent],
   templateUrl: './current-state.component.html',
   styleUrl: './current-state.component.scss'
 })
