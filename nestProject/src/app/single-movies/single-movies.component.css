@@ -1,0 +1,8 @@
+button:hover{
+    background-color: grey;
+    color: black;
+}
+
+img:hover{
+    transform: scale(1.07);
+}

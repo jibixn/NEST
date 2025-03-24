@@ -1,0 +1,16 @@
+<div class="movie-card ">
+    <img src="images/{{data.id}}.jpg" alt="" onerror="this.src='images/netflx.png';"  class="movie-img">
+    <div class="overlay">
+        <div class="buttons">
+            
+            <button  class="play-btn"><a routerLink="single/{{data.id}}"><img  src="images/play.png" alt=""></a></button>
+    
+        </div>
+        
+    </div>
+    
+    <div class="movie-details">
+        <h3 class="movie-title" style="color: white;">{{data.movie}}</h3>
+        <p class="rating" style="color: white;">⭐ {{data.rating}}/5</p>
+    </div>
+</div>

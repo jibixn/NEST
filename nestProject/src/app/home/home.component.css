@@ -1,0 +1,12 @@
+
+button{
+   
+       transition: 0.5s;
+ 
+}
+button:hover{
+    background: black;
+    color: white;
+    border: transparent;
+    
+}

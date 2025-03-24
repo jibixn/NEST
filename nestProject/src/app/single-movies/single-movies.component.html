@@ -1,0 +1,17 @@
+<section class="bg-black dark:bg-gray-900 mt-7 h-full">
+    <div class="grid max-w-screen-xl px-4 py-0 mx-auto lg:gap-8 xl:gap-0 lg:py-0 lg:grid-cols-12">
+        <div class="mr-auto place-self-center lg:col-span-8">
+            
+            <h1 class=" text-white max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl white:text-dark">{{data.movie}}</h1>
+           
+                <div><p style="color: white;">go to</p></div><a href=""><img src="images/imdb.png" style="height: 100px;transition: transform 0.5s;" alt=""> </a>               
+           
+            <p class="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">⭐rating {{data.rating}}/10</p>
+            <div><button style="color: white; border: solid;padding: 20px; border-radius: 100px;transition: 0.5s; margin: 12px;">watch now</button><button routerLink="/movie" style="color: white; border: solid;padding: 20px; border-radius: 100px;transition: 0.5s;">go back</button></div>
+           
+        </div>
+        <div class="hidden lg:mt-0 lg:col-span-4 lg:flex">
+            <img style="margin: 3px; border-radius: 10px; object-fit: cover;transition: transform 0.5s;" src="images/{{data.id}}.jpg"  onerror="this.src='images/netflx.png';" alt="mockup">
+        </div>                
+    </div>
+</section>
